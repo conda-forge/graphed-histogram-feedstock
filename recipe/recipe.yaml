@@ -24,8 +24,9 @@ requirements:
     - hatchling
   run:
     - python >=${{ python_min }}
-    - graphed >=0.0.2
-    - boost-histogram >=1.4
+    - graphed >=0.0.9
+    - boost-histogram >=1.7                                                                                                                                                                               
+    - hist >=2.11
     - numpy >=1.24
 
 tests:
